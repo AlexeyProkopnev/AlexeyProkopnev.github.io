@@ -1,0 +1,138 @@
+.page-header {
+    margin: 50px; 
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    font-size: xx-large; 
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 900;
+}
+
+.menu-item > a {
+    color: #073a11;
+}
+
+body {
+    background: radial-gradient(circle closest-corner at 40px 400px, #649173, #dbd5a4);
+}
+
+.catalog {
+    width: auto;
+    display: table;
+    margin: 0 auto;
+}
+
+.item {
+    position: relative;
+    float: center;
+    display: inline-block;
+    margin: 5px;
+
+    padding: 2px;
+    border-radius: 7px;
+    border: 2px solid #bada55;
+}
+
+
+.item:hover {
+    /*padding: 0px;
+    border: 4px solid #bada55;
+    */
+    cursor: pointer;
+}
+
+
+span.text-content span, span.text-info span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+span.text {
+    background: rgba(128, 16, 32, 0.5);
+
+    color: white;
+    cursor: pointer;
+    display: table;
+    position: absolute;
+
+    width: auto;
+    height: 30px;
+
+    border-radius: 3px;
+    border: 1px;
+
+    opacity: 0;
+
+    -webkit-transition: opacity 3000ms;
+    -moz-transition: opacity 3000ms;
+    -o-transition: opacity 3000ms;
+    transition: opacity 3000ms;
+}
+
+span.text-nutrient {
+    bottom: 7px;
+    right: 7px;
+
+    padding: 3px;
+    font-size: x-small;
+
+    background: rgba(128, 16, 32, 0.90);
+    text-align: left;
+}
+
+.nutrient-table td {
+    padding-right: 3px;
+}
+
+span.text-content {
+    top: 7px;
+    left: 7px;
+
+    padding: 3px;
+    font-size: large;
+    font-weight: bold;
+}
+
+span.text-info {
+    bottom: 7px;
+    left: 7px;
+
+    padding: 1px;
+    font-size: small;
+}
+
+.cal {
+    padding: 2px;
+    font-size: medium;
+    background: rgba(128, 16, 32, 0.75);
+    border-radius: 50%;
+}
+
+span.text.text-content {
+
+    -webkit-transition: opacity 750ms;
+    -moz-transition: opacity 750ms;
+    -o-transition: opacity 750ms;
+    transition: opacity 750ms;
+}
+
+span.text.text-info {
+
+    -webkit-transition: opacity 2000ms;
+    -moz-transition: opacity 2000ms;
+    -o-transition: opacity 2000ms;
+    transition: opacity 2000ms;
+}
+ 
+ul.catalog li:hover span {
+    opacity: 0.75;
+}
+
+ul {
+    text-align: center;
+    padding: 0px;
+}
